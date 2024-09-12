@@ -1,6 +1,6 @@
 import { getGreeting } from '../support/app.po';
 
-describe('api-rick-morky-e2e', () => {
+describe('api-rick-morty-e2e', () => {
   beforeEach(() => cy.visit('/'));
 
   it('should display welcome message', () => {

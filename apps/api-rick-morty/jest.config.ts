@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'api-rick-morky',
+  displayName: 'api-rick-morty',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/api-rick-morky',
+  coverageDirectory: '../../coverage/apps/api-rick-morty',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

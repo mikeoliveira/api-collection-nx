@@ -1,0 +1,12 @@
+{
+  "name": "api-rick-morty-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/api-rick-morty-e2e/src",
+  "tags": [],
+  "implicitDependencies": [
+    "api-rick-morty"
+  ],
+  "// targets": "to see all targets run: nx show project api-rick-morty-e2e --web",
+  "targets": {}
+}

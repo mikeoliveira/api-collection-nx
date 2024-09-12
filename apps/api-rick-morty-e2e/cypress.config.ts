@@ -7,10 +7,10 @@ export default defineConfig({
     ...nxE2EPreset(__filename, {
       cypressDir: 'src',
       webServerCommands: {
-        default: 'npx nx run api-rick-morky:serve',
-        production: 'npx nx run api-rick-morky:serve-static',
+        default: 'npx nx run api-rick-morty:serve',
+        production: 'npx nx run api-rick-morty:serve-static',
       },
-      ciWebServerCommand: 'npx nx run api-rick-morky:serve-static',
+      ciWebServerCommand: 'npx nx run api-rick-morty:serve-static',
       ciBaseUrl: 'http://localhost:4200',
     }),
     baseUrl: 'http://localhost:4200',
