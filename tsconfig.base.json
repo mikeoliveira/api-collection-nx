@@ -8,14 +8,36 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
-    "target": "es2015",
+    "target": "es2022",
     "module": "esnext",
     "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@api-collection-nx/my-plugin": ["tools/my-plugin/src/index.ts"]
+      "@api-collection-nx/application": [
+        "libs/api-rick-morty/infrastrucutre/application/src/index.ts"
+      ],
+      "@api-collection-nx/entities": [
+        "libs/api-rick-morty/app-core/domain/entities/src/index.ts"
+      ],
+      "@api-collection-nx/my-plugin": ["tools/my-plugin/src/index.ts"],
+      "@api-collection-nx/repository": [
+        "libs/api-rick-morty/app-core/domain/repository/src/index.ts"
+      ],
+      "@api-collection-nx/usecases": [
+        "libs/api-rick-morty/app-core/usecases/src/index.ts"
+      ],
+      "@api-rick-morty/favorite-characters": [
+        "libs/api-rick-morty/feature/characters/favorite-characters/src/index.ts"
+      ],
+      "@api-rick-morty/home": ["libs/api-rick-morty/feature/home/src/index.ts"],
+      "@api-rick-morty/infrastructure": [
+        "libs/api-rick-morty/infrastrucutre/infrastructure/src/index.ts"
+      ],
+      "@api-rick-morty/list-characters": [
+        "libs/api-rick-morty/feature/characters/list-characters/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
