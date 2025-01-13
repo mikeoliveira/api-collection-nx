@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    padding: 20px;
+    background-color: #007bff;
+  
+    &__logo {
+      text-decoration: none;
+    }
+  
+    &__title {
+      color: #fff;
+      font-size: 25px;
+    }
+  }
