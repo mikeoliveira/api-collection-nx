@@ -25,6 +25,10 @@
       "@api-collection-nx/repository": [
         "libs/api-rick-morty/app-core/domain/repository/src/index.ts"
       ],
+      "@api-collection-nx/ui": ["libs/ui/src/index.ts"],
+      "@api-collection-nx/ui/layout-custom-label": [
+        "libs/ui/layout-custom-label/src/index.ts"
+      ],
       "@api-collection-nx/usecases": [
         "libs/api-rick-morty/app-core/usecases/src/index.ts"
       ],
